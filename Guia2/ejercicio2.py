@@ -12,5 +12,5 @@ montoDescuento = precioMedicamento * 0.35
 precioFinal = precioMedicamento - montoDescuento
 
 print(f"El precio actual del medicamento es: ${precioMedicamento}")
-print(f"El monto del descuento es: ${montoDescuento}")
+print(f"El monto del descuento del {DESCUENTO}% es: ${montoDescuento}")
 print(f"El precio final del medicamento es: ${precioFinal}")
